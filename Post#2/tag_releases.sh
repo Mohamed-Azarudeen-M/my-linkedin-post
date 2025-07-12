@@ -2,7 +2,7 @@
 set -e # Exit on any error
 
 # Purpose: Tags and optionally pushes releases to remote Git repositories for multiple microservices using a JSON file
-# with repository-tag mappings (e.g., {"gcms-pro-ci":"v1.0.1","gcms-pro-backend":"v2.0.0"}).
+# with repository-tag mappings (e.g., {"repo-1":"v1.0.1","repo-2":"v2.0.0"}).
 # Usage: ./tag_releases.sh [-p|--push] -f|--file <tag_file>
 # Options:
 #   -p, --push        Push tags to the remote repository
